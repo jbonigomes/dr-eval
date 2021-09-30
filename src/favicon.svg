@@ -1,0 +1,19 @@
+<svg
+  width="150"
+  height="150"
+  viewBox="0 0 150 150"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="150" height="150" fill="#60f" />
+  <text
+    x="45"
+    y="130"
+    font-size="95"
+    font-weight="95"
+    fill="#ffffffe6"
+    letter-spacing="0.05em"
+    font-family="AvenirNextCondensed-Bold, Avenir Next"
+  >
+    JS
+  </text>
+</svg>
