@@ -27,9 +27,9 @@ const App = () => {
 
   return (
     <div className={`flex ${isDragging ? 'selectNone' : ''}`}>
-      <div style={{ width: `${width}` }}>
+      <div style={{ width }}>
         <div id="monaco"></div>
-        <select value={language} onChange={changeLanguage}>
+        <select value={language || initialLanguage} onChange={changeLanguage}>
           <option value="javascript">JavaScript</option>
           <option value="scheme">Scheme</option>
         </select>

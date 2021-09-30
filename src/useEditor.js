@@ -60,7 +60,7 @@ export default (elementId, initialCode, initialLanguage) => {
     run,
     editor,
     result,
-    language,
     changeLanguage,
+    language: language || initialLanguage,
   }
 }

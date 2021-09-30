@@ -26,6 +26,7 @@ select {
   position: absolute;
   border-radius: 5px;
   color: var(--white);
+  background: var(--theme);
   border: 2px solid var(--accent);
 
   &:focus {
@@ -101,7 +102,7 @@ button {
 .result {
   height: 100vh;
   flex: 1 1 auto;
-  /*TODO: find an alternative to this: overflow: scroll;*/
+  overflow: scroll;
 
   pre {
     margin: 0;
